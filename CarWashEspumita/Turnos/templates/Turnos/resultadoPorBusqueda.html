@@ -1,0 +1,12 @@
+<p>Estamos buscando el: {{modelo}}</p>
+
+{% if auto %}
+
+<ul>
+{% for n in auto %}
+    <li> {{modelo}} {{patente}} </li>
+{% endfor %}
+
+</ul>
+
+{% endif %}
